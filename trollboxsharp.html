@@ -10,20 +10,20 @@
   <meta name="author" content="jankenpopp, zombectro">
   <meta http-equiv="Content-Language" content="en_US" />
   <meta name="google" content="notranslate" />
-  <link href="/rss" rel="alternate" type="application/rss+xml" title="windows93" />
-  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=2.4.8" />
+  <link href="https://windows93.net/rss" rel="alternate" type="application/rss+xml" title="windows93" />
+  <link rel="shortcut icon" type="image/x-icon" href="https://windows93.net/favicon.ico?v=2.4.8" />
 
-  <link rel="stylesheet" href="/c/sys42.css?v=2.4.8">
-  <link rel="stylesheet" href="/c/sys/skins/w93.css?v=2.4.8" id="w93_skin">
-  <link rel="stylesheet" href="/sys/hotfix.css?v=2.4.8"></head>
+  <link rel="stylesheet" href="https://windows93.net/c/sys42.css?v=2.4.8">
+  <link rel="stylesheet" href="https://windows93.net/c/sys/skins/w93.css?v=2.4.8" id="w93_skin">
+  <link rel="stylesheet" href="https://windows93.net/sys/hotfix.css?v=2.4.8"></head>
   <script>
     //if (location.protocol != 'https:'){ window.location='https://windows93.net/trollbox/' }
   </script>
-  <link rel="stylesheet" href="/trollbox/trollbox.css?v=3">
-  <script src="/c/libs/jquery.min.js"></script>
-  <script type="text/javascript" src="suncalc.js"></script>
-  <script type="text/javascript" src="he.js"></script>
-  <script type="text/javascript" src="zalgo.js"></script>
+  <link rel="stylesheet" href="https://windows93.net/trollbox/trollbox.css?v=3">
+  <script src="https://windows93.net/c/libs/jquery.min.js"></script>
+  <script type="text/javascript" src="https://windows93.net/trollbox/suncalc.js"></script>
+  <script type="text/javascript" src="https://windows93.net/trollbox/he.js"></script>
+  <script type="text/javascript" src="https://windows93.net/trollbox/zalgo.js"></script>
 <body>
 <div id="trollbox" class="skin_base ui_layout _ui_unselectable">
   <section class="_mb5 ui_layout">
@@ -170,8 +170,8 @@
       "–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––\n";
   </script>
   <!--<script src="/socket.io/socket.io.js"></script>-->
-  <script src="//www.windows93.net:8086/socket.io/socket.io.js"></script>
-  <script src="/c/sys42.js?v=2.3.6"></script>
+  <script src="https://www.windows93.net:8086/socket.io/socket.io.js"></script>
+  <script src="https://windows93.net/c/sys42.js?v=2.3.6"></script>
   <script>
 
     var trollbox_scroll = document.getElementById('trollbox_scroll');
@@ -181,7 +181,7 @@
     var trollbox_input = document.getElementById('trollbox_input');
 
     //var socket = io();
-    var socket = io('//www.windows93.net:8086');
+    var socket = io('https://www.windows93.net:8086');
 
     var pseudo = $store.get('.config/trollbox/nick') || '';
     var color = $store.get('.config/trollbox/color') || '';
@@ -292,7 +292,7 @@
     };
     for(var key in emots){
       if(emots.hasOwnProperty(key)){
-        text = text.replace(new RegExp(escapeRegExp(key), 'g'), '<img src="/trollbox/pix/emoticons/'+set+'/' + emots[key] + '.gif"/>');
+        text = text.replace(new RegExp(escapeRegExp(key), 'g'), '<img src="https://windows93.net/trollbox/pix/emoticons/'+set+'/' + emots[key] + '.gif"/>');
       }
     }
     return text;
@@ -1151,7 +1151,7 @@
  
     }
   </script>
-   <script type="text/javascript" src="figlet.js"></script>
+   <script type="text/javascript" src="https://windows93.net/trollbox/figlet.js"></script>
 <script>    
 figlet.defaults({
     fontPath: '/trollbox/fonts'
